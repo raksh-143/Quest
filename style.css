@@ -1,0 +1,53 @@
+#homePage{
+    background-image: url('background.png');
+    background-size: cover;
+}
+*{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-size: 55px;
+}
+#teacher{
+    float: left;
+}
+#student{
+    float: right;
+}
+#teacher{
+    margin: 0px 50px 0px 190px;
+}
+#student{
+    margin: 0px 190px 0px 50px;
+}
+#teacher,#student{
+    border: 8px solid #786039;
+    padding: 20px;
+    background-color: #5D8E69;
+}
+#student a,#teacher a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+#student:hover,#teacher:hover{
+    background-color: #B89E6F;
+    border-color: #5D8E69;
+}
+.input{
+    font-size: 20px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+#first{
+    margin-top: 100px;
+}
+#last{
+    cursor: pointer;
+}

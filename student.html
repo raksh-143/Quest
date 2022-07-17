@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quest</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        *{
+            color: #054870;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-style: italic;
+        }
+
+    </style>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color: #FFBDA9;">
+    <h1 style="margin-top:120px;">Select the Subject</h1>
+    <form class="mt-5" action="teacherSelect.php" method="POST">
+        <select class="form-select-lg mb-5 p-5 form-select-danger border-2" name="subject">
+            <option value="WFT">Web Frameworks and Technologies</option>
+            <option value="CN">Computer Networks</option>
+            <option value="DMML">Data Mining and Machine Learning</option>
+            <option value="CC">Cloud Computing</option>
+            <option value="SNA">Social Networking Analysis</option>
+            <option value="AJ">Advanced Java</option>
+            <option value="WOT">Web of Things</option>
+        </select><br>
+        <input class="btn btn-outline-success shadow-none" type="submit" value="Submit" name="submit"><br>
+        <a class="mt-3 btn btn-outline-success shadow-none" href="homepage.html">Back to Homepage</a>
+    </form>
+</body>
+</html>
